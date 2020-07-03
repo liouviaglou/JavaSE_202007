@@ -5,8 +5,24 @@
 | Date     | Time     | Desc   |
 |----------|----------|--------|
 | 20200701 | 1.75h    | deduping     |
+| 20200702 | 5h       | data prep     |
+| 20200703 | 2h       | data prep     |
+| 20200703 | 1h       | decision tree play & plan     |
 
 ## Lab Notebook
+
+
+
+### 20200703
+
+Plan: 
+- run through decision trees with various 'Satisfaction' repsonses & pick out lowest error, drill into insights
+- execute decision tree with overall 'Satisfaction' metric
+- random forest set up
+
+Finished data prep.
+
+Started decision tree play.
 
 ### 20200702
 
@@ -31,7 +47,7 @@ Todo:
 - Parse '... Satisfaction (0-10)... ': 12>NA, x=x-1
 - Parse 'Importance (0-10) ': 12>NA, x=x-1
 - Parse Satisfaction (0-10)': 12>NA, x=x-1
-- Parse '... On a scale from 0 to 10...', x=x-1
+- Parse '... a scale from 0 to 10...', x=x-1
 
 
 
