@@ -8,8 +8,37 @@
 | 20200702 | 5h       | data prep     |
 | 20200703 | 2h       | data prep     |
 | 20200703 | 1h       | decision tree play & plan     |
+| 20200703 | 2h       | decision tree execute     |
 
 ## Lab Notebook
+
+
+
+### 20200704
+
+Created pipeline and ran through all individual and gorup results. not sure ccp_alpha is being optimized
+
+parse through results
+qa results
+
+try automl?
+
+
+
+### 20200703_3
+
+Plan: run through all depedend variable candidates and get the highest 
+
+
+### 20200703_2
+
+decision tree reuslts: satisfaction with a certain "subset" s largely driven by importance/use of that subset.
+few other variables come into play
+more interesting to look at overall satisfaction as a function of specific uses and importances
+
+Most interesting result:
+- response: Overall Satisfaction with elements of Oracle Java SE Subscription [OJavaSESubscription_Elem_Sat_Org_*] accuracy @ approx 0.75 
+- response: Overall Satisfaction with elements AND attrbutes of Oracle Java SE Subscription (but excluding Oracle tools) ... accuracy @ approx 0.724 @ alpha=12.5. Variables driving high satisfaction: innovation potential as purchasing decision (>6.805) + % Java Devs in Org (>50%) + The Java SE Deployment Rule Set Satisfaction (0-10)[ , ]
 
 
 
