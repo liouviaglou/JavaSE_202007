@@ -10,10 +10,11 @@
 | 20200703 | 1h       | decision tree play & plan     |
 | 20200703 | 2h       | decision tree execute     |
 | 20200703 | 1h       | pipeline set-up    |
-| 20200703 | 0.5h       | pipeline parse   |
+| 20200703 | 0.5h     | pipeline parse   |
 | 20200704 | 7h       | RF & DTREE mass pipeline > results   |
+| 20200705 | 8h       | Summary, Deliverable   |
 
-20.25 h 0701-0704
+28.25 h 0701-070540
 
 ## Lab Notebook
 

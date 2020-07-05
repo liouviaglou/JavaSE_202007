@@ -1,6 +1,6 @@
 
 
-def dtree_pipe (mod_df = mod_df, 
+def dtree_pipe (mod_df = mod_df, random_state=0,
                catg_dummy_list = catg_dummy_list,
                cont_dummy_list = cont_dummy_list,
                dummy0_dummy_list = dummy0_dummy_list,
@@ -20,7 +20,7 @@ def dtree_pipe (mod_df = mod_df,
         X_drop = list(X_drop)
     print(X_drop)
 
-    X = mod_df.drop(y_list, axis=1)[X_list].drop(X_drop, axis=1)
+    X = mod_df.drop(y_list, axis=1, errors='ignore')[X_list].drop(X_drop, axis=1, errors='ignore')
     if y_funct == 'sum':
         y = mod_df[y_list].sum(axis=1,skipna=True)
     elif y_funct == 'mean':
@@ -43,7 +43,7 @@ def dtree_pipe (mod_df = mod_df,
 
     clfs = []
     for ccp_alpha in ccp_alphas:
-        clf = DecisionTreeRegressor(random_state=0, ccp_alpha=ccp_alpha)
+        clf = DecisionTreeRegressor(random_state=random_state, ccp_alpha=ccp_alpha)
         clf.fit(X_train, y_train)
         clfs.append(clf)
 
@@ -123,7 +123,7 @@ def rf_pipe (mod_df = mod_df,
             X_list = X_list
     
     
-    X = mod_df.drop(y_list, axis=1)[X_list].drop(X_drop, axis=1)
+    X = mod_df.drop(y_list, axis=1, errors='ignore')[X_list].drop(X_drop, axis=1, errors='ignore')
     
     if y_funct == 'sum':
         y = mod_df[y_list].sum(axis=1,skipna=True)
