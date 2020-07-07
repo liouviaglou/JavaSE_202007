@@ -13,12 +13,19 @@
 | 20200703 | 0.5h     | pipeline parse   |
 | 20200704 | 7h       | RF & DTREE mass pipeline > results   |
 | 20200705 | 8h       | Summary, Deliverable   |
+| 20200707 | 4h     | Summary, Deliverable   |
 
 28.25 h 0701-070540
 
 ## Lab Notebook
 
 
+
+### 20200707
+
+Issue: RF in Python requires one-hot encoding is sub-optimal [link](https://towardsdatascience.com/one-hot-encoding-is-making-your-tree-based-ensembles-worse-heres-why-d64b282b5769)
+
+1. trying quick R run with Ranger and f = y123w ~ .
 
 ### 20200705
 
