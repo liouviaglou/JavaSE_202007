@@ -174,6 +174,8 @@ def rf_pipe (mod_df = mod_df,
     
    
     
-    return(clf,MeanAbsoluteError, accuracy, y_na, varimp0,varimp1, varimp2, feature_importances, ', '.join(X_drop) )
+    return(clf,MeanAbsoluteError, accuracy, y_na, varimp0,varimp1, varimp2, feature_importances, X_drop
+#            ', '.join(X_drop) 
+          )
 
    

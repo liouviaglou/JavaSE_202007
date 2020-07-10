@@ -13,9 +13,12 @@
 | 20200703 | 0.5h     | pipeline parse   |
 | 20200704 | 7h       | RF & DTREE mass pipeline > results   |
 | 20200705 | 8h       | Summary, Deliverable   |
-| 20200707 | 4h     | Summary, Deliverable   |
+| 20200707 | 8h     | Summary, Deliverable   |
+| 20200708 | 5h     | Summary, Deliverable   |
+| 20200709 | 1.5h     | Internal meting   |
+| 20200709 | 7h  | Freq & Crosstabs   |
 
-28.25 h 0701-070540
+41.25 h 0701-0708
 
 ## Lab Notebook
 
