@@ -31,7 +31,7 @@
 | 20200724 | 1h | meet to prep to meet   |
 | 20200727 | 1h | mfinal meet   |
 
-63.75h as of 07/10
+71.25 (plus ~8-9h for survey planning (meetings))
 
 ## Lab Notebook
 
