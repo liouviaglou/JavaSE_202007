@@ -17,8 +17,21 @@
 | 20200708 | 5h     | Summary, Deliverable   |
 | 20200709 | 1.5h     | Internal meting   |
 | 20200709 | 7h  | Freq & Crosstabs   |
+| 20200710 | 5h  | report, Freq & Crosstabs   |
+| 20200712 | 3h  | report refinement   |
+| 20200713 | .75h  | meeting   |
+| 20200713 | 2.25h  | five charts   |
+| 20200714 | 2.5h  | meeting   |
+| 20200714 | .5h  | meeting follow up   |
+| 20200716 | 2.25h  | prep & meeting   |
+| 20200716 | .5h | meeting follow up 1   |
+| 20200718 | .75h | meeting follow up 2   |
+| 20200720 | 1h | phone survey meeting   |
+| 20200722 | 1h | phone survey meeting   |
+| 20200724 | 1h | meet to prep to meet   |
+| 20200727 | 1h | mfinal meet   |
 
-41.25 h 0701-0708
+63.75h as of 07/10
 
 ## Lab Notebook
 
